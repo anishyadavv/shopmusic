@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&display=swap');
+
+body{
+    font-family: 'Jura', sans-serif;
+    background-color: #2E1B50;
+    color: white;
+}
+
+.hero{
+    width: 70vw;
+    height: 97vh;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #8642FF;
+    border-radius: 2px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+.h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+.music{
+    font-size: 7rem;
+}
+.left p{
+    font-size: 1.5rem;
+    width: 40vw;
+    opacity: .7;
+}
+.left button{
+    width: 200px;
+    height: 50px;
+    background-color: #955AFF;
+    color: white;
+    border: 0;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    opacity: .80;
+}
+.right{
+    margin-left: 460px;
+    margin-top: -400px;
+}
+.left{
+    margin-top: 50px;
+}
+.products{
+    height: 100vh;
+    position: relative;
+}
+.productC{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.performance{
+    height: 100vh;
+    margin-top: 200px;
+    position: relative;
+}
+.card{
+    width: 150px;
+    height: 300px;
+    margin-right: 10px;
+     background-color: #8642FF;
+    border-radius: 2px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+.cards{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+.products .button{
+    width: 300px;
+    height: auto;
+    background-color: #955AFF;
+    color: white;
+}
+
+
+.productsrow .button{
+    width: 250px;
+    height: 50px;
+    background-color: #955AFF;
+    color: white;
+    border: 1px solid white;
+    border-top: 0px;
+}
+.product1{
+    border: 1px solid white;
+    width: auto;
+    padding: 10px;
+}
+.productsrow{
+    margin-top: 100px;
+}
+.productsrow .col{
+    align-items: center;
+}
+.footer{
+    height: 100vh;
+    position: relative;
+    margin-top: 500px;
+}
+.Headphones{
+     position: absolute;
+     left:25%;
+     transform:translateX(-50%);
+     top:-35%;
+     transform: rotate(-20deg);
+}
+.branding{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.mainline{
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+.logo{
+    font-size: 2rem;
+    margin-top:40px;
+}
